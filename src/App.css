@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-family: Inconsolata, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Helvetica Neue", Arial, sans-serif;
 }
 
 #root {
