@@ -1,0 +1,12 @@
+.tab {
+  padding: 12px 0;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.tab.active {
+  border-bottom: 2px solid #FFFFFF;
+}

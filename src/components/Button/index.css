@@ -1,0 +1,9 @@
+button.button {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #222222;
+}
+
+button.primary {
+  background-color: #D7FF1F;
+}
