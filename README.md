@@ -1,3 +1,13 @@
+# how to start
+
+- pnpm install (or npm install)
+- pnpm run dev (or npm run dev)
+
+then the url for localhost and port should be output in the terminal, normally it's http://localhost:5173/
+
+visit the link displayed in terminal, and you should be see the site
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
