@@ -1,6 +1,6 @@
 import Header from './layouts/header'
 import Sidebar from './layouts/sidebar'
-import './components/UserCard'
+import Content from './layouts/content'
 import './App.css'
 
 function App() {
@@ -8,8 +8,9 @@ function App() {
   return (
     <>
       <Header />
-      <div className='main'>
+      <div className='main flex'>
         <Sidebar />
+        <Content />
       </div>
     </>
   )

@@ -1,0 +1,18 @@
+.alert {
+  width: 100%;
+  padding: 8px 20px;
+  background: rgba(223, 28, 65, 0.50);
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 600; 
+}
+
+.alert img {
+  margin-right: 10px;
+}
+
+.alert a {
+  color: #FFFFFF;
+  text-decoration: underline;
+  opacity: 0.5;
+}
