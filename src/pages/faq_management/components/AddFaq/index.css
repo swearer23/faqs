@@ -1,0 +1,31 @@
+.add-faq-form input {
+  width: 100%;
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+}
+
+.add-faq-form input:focus {
+  outline: none;
+}
+
+.add-faq-form .input {
+  margin-top: 3px;
+  background-color: #1F2129;
+  padding: 6px 12px;
+}
+
+.add-faq-form .add-new-formulation {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  font-size: 24px;
+  vertical-align: middle;
+  background-color: #4f5155;
+  background-image: url('/images/add.svg');
+  background-position: center;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}

@@ -1,6 +1,7 @@
 import Header from './layouts/header'
 import Sidebar from './layouts/sidebar'
 import Content from './layouts/content'
+import { Toaster } from "@/components/ui/toaster"
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Sidebar />
         <Content />
       </div>
+      <Toaster />
     </>
   )
 }
