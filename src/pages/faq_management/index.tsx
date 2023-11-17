@@ -3,6 +3,7 @@ import Tabs from '../../components/Tab'
 import Button from '../../components/Button'
 import TabContent from '../../components/TabContent'
 import { useState } from 'react'
+import AllFaq from './components/AllFaq'
 
 export default () => {
   const [active, setActive] = useState(0)
@@ -26,14 +27,12 @@ export default () => {
         </div>
       </div>
       <TabContent activeIndex={active}>
+        <AllFaq />
         <div className='faq-list'>
-          1
+          <h1>Conflicting</h1>
         </div>
         <div className='faq-list'>
-          2
-        </div>
-        <div className='faq-list'>
-          3
+          <h1>Unanswered</h1>
         </div>
       </TabContent>
     </>

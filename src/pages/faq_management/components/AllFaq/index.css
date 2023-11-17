@@ -1,0 +1,79 @@
+.faq-list .title {
+  padding: 0 18px;
+}
+
+.faq-list .title h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.faq-list .title .search {
+  margin: 0 20px;
+  border-radius: 8px;
+  background: #262A2E;
+  display: flex;
+  width: 296px;
+  height: 48px;
+  padding: 14px 16px;
+  align-items: center;
+  gap: 16px;
+}
+
+.faq-list .title .search::before {
+  content: url('/images/search.svg');
+  width: 20px;
+  height: 20px;
+}
+
+.faq-list .title .search input {
+  background-color: transparent;
+  border: none;
+  height: 1.5rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.faq-list .title .search input:focus {
+  outline: none;
+}
+
+.faq-list .list-item {
+  padding: 20px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+  background: #17181E;
+
+  /* Shadow/Card */
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.04), 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 0px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.faq-list .list-item.active {
+  background: #262A2E;
+}
+
+.faq-list .list-item .number {
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+  text-transform: capitalize;
+  width: 40px;
+}
+
+.faq-list .list-item .faq-content {}
+.faq-list .list-item .faq-ops img {
+  padding: 8px;
+}
+.faq-list .list-item .faq-content .question {
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.faq-list .list-item .faq-content .answer {
+  font-size: 12px;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  color: #686B6E;
+}

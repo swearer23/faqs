@@ -78,13 +78,18 @@
   padding-left: 30px;
 }
 
-.sidebar-container .sidebar-section ul li.sub-menu span::before {
+.sidebar-container .sidebar-section ul li.sub-menu span::before, .sidebar-container .sidebar-section ul li.default-icon::before {
   content: url('/images/square.svg');
   margin-right: 16px;
   width: 20px;
   height: 20px;
   filter: drop-shadow(0px 4px 6px rgba(182, 240, 156, 0.16)) drop-shadow(0px 10px 15px rgba(182, 240, 156, 0.16));
   text-align: center;
+}
+
+.sidebar-container .sidebar-section ul li.default-icon::before {
+  margin-right: 0;
+  margin-left: -5px;
 }
 
 .sidebar-container .sidebar-section ul li.sub-menu span.active {

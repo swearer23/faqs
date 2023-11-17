@@ -1,12 +1,13 @@
 import './index.css'
 
-export default ({children, url} : {
+export default ({children, url, style} : {
   children: React.ReactNode,
-  url: string
+  url: string,
+  style?: React.CSSProperties
 }) => {
   return (
     <>
-      <div className="alert flex">
+      <div className="alert flex" style={style}>
         <img src="/images/warn.svg" alt="" />
         <p className='grow'>
           {children}

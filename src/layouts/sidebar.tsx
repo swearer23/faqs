@@ -54,23 +54,11 @@ export default () => {
         <div className='sidebar-section'>
           <p className='title'>Plugins Managment</p>
           <ul>
-            <li className='flex items-center'>
-              <div style={{
-                width: '20px',
-                height: '20px',
-              }}>
-                <img src="/images/square.svg" alt="" style={{marginLeft: '-5px'}} />
-              </div>
+            <li className='flex items-center default-icon'>
               <p className='grow'>Quiz Generator</p>
               <div className='badge justify-self-end'>Comming soon</div>
             </li>
-            <li className='flex items-center'>
-              <div style={{
-                width: '20px',
-                height: '20px',
-              }}>
-                <img src="/images/square.svg" alt="" style={{marginLeft: '-5px'}} />
-              </div>
+            <li className='flex items-center default-icon'>
               <p className='grow'>FAQ Generator</p>
               <div className='badge justify-self-end'>Comming soon</div>
             </li>
