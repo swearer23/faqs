@@ -1,4 +1,5 @@
 import './sidebar.css'
+import UserCard from '../components/UserCard'
 
 export default () => {
   return (
@@ -78,6 +79,9 @@ export default () => {
               <p style={{color: '#686B6E'}}>Add New Plugins</p>
             </li>
           </ul>
+        </div>
+        <div className='sidebar-section'>
+          <UserCard />
         </div>
       </div>
     </>
